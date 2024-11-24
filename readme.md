@@ -11,7 +11,7 @@ This example calculates a route based on two or more RouteWaypoint objects.
 > **NOTE:**
 > To incorporate this solution within your DevExpress-powered app, you need an Azure Maps service [key](https://learn.microsoft.com/en-us/azure/azure-maps/quick-demo-map-app#get-the-subscription-key-for-your-account). Replace the `AzureKey` property value with your subscription key to connect to Azure Maps.
 
-## Implementation Details 
+### Implementation Details 
 
 Right-click on a map surface to specify waypoints: origin, destination, and points in between. ListBox entries display geographical points (GeoPoint.Longitude and GeoPoint.Latitude). The “Calculate Route” button initiates the routing request by obtaining waypoint information and passing it to the CalculateRoute method. ComboBoxEdit and CheckedListBox editors specify route options (`AzureRouteOptions.AvoidTypes` and `AzureRouteOptions.TravelMode` properties).
 
