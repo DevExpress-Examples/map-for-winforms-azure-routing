@@ -33,47 +33,47 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.Desktop.v24.2, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Data.Desktop.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.Data.Desktop.v24.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Data.v24.2, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Data.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.Data.v24.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Drawing.v24.2, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Drawing.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.Drawing.v24.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Images.v24.2, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Images.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.Images.v24.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Map.v24.2.Core, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Map.v24.2.Core, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.Map.v24.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Printing.v24.2.Core, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Printing.v24.2.Core, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.Printing.v24.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v24.2, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Utils.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.Utils.v24.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraBars.v24.2, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraBars.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.XtraBars.v24.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v24.2, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraEditors.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.XtraEditors.v24.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v24.2, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraLayout.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.XtraLayout.v24.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraMap.v24.2, Version=24.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraMap.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Work\2024.2\Bin\Framework4\DevExpress.XtraMap.v24.2.dll</HintPath>
     </Reference>
