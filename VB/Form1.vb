@@ -11,48 +11,29 @@ Namespace AzureRouting
         Inherits Form
 
         Const azureKey As String = "your key"
-
         Private geoPoints As ObservableCollection(Of GeoPoint) = New ObservableCollection(Of GeoPoint)()
-
         Private itemData As MapItemStorage
-
-        Private routeInfoLayer As InformationLayer
-
         Private azureRoute As AzureRouteDataProvider
 
         Public Sub New()
             InitializeComponent()
-             ''' Cannot convert InvocationExpressionSyntax, System.InvalidCastException: Unable to cast object of type 'Microsoft.CodeAnalysis.VisualBasic.Syntax.EmptyStatementSyntax' to type 'Microsoft.CodeAnalysis.VisualBasic.Syntax.ArgumentListSyntax'.
-'''    at ICSharpCode.CodeConverter.VB.NodesVisitor.VisitInvocationExpression(InvocationExpressionSyntax node)
-'''    at Microsoft.CodeAnalysis.CSharp.CSharpSyntaxVisitor`1.Visit(SyntaxNode node)
-'''    at ICSharpCode.CodeConverter.VB.CommentConvertingVisitorWrapper`1.Accept(SyntaxNode csNode, Boolean addSourceMapping)
-''' 
-''' Input:
-'''             this.mapControl.Layers.AddRange(
-'''                 new DevExpress.XtraMap.LayerBase[] {
-'''                     new DevExpress.XtraMap.ImageLayer() {
-'''                         DataProvider = new DevExpress.XtraMap.AzureMapDataProvider() {
-'''                             AzureKey = AzureRouting.Form1.azureKey,
-'''                             Tileset = DevExpress.XtraMap.AzureTileset.Imagery,
-'''                         },
-'''                     },
-'''                     new DevExpress.XtraMap.ImageLayer() {
-'''                         DataProvider = new DevExpress.XtraMap.AzureMapDataProvider() {
-'''                             AzureKey = AzureRouting.Form1.azureKey,
-'''                             Tileset = DevExpress.XtraMap.AzureTileset.BaseHybridRoad,
-'''                         },
-'''                     },
-'''                     this.routeInfoLayer = new DevExpress.XtraMap.InformationLayer() {
-'''                         DataProvider = this.azureRoute = new DevExpress.XtraMap.AzureRouteDataProvider() {
-'''                             AzureKey = AzureRouting.Form1.azureKey,
-'''                         },
-'''                     },
-'''                     new DevExpress.XtraMap.VectorItemsLayer() {
-'''                         Data = this.itemData = new DevExpress.XtraMap.MapItemStorage(),
-'''                     }
-'''                 }
-'''             )
-'''  DataProvider = azureRoute
+            Dim imageLayer As New ImageLayer()
+            imageLayer.DataProvider = New AzureMapDataProvider() With {
+            .AzureKey = azureKey,
+            .Tileset = AzureTileset.Imagery
+            }
+            Dim imageLayer1 As New ImageLayer()
+            imageLayer.DataProvider = New AzureMapDataProvider() With {
+            .AzureKey = azureKey,
+            .Tileset = AzureTileset.BaseHybridRoad
+            }
+            Dim routeInfoLayer As New InformationLayer()
+            azureRoute = New AzureRouteDataProvider() With {.AzureKey = azureKey}
+            routeInfoLayer.DataProvider = azureRoute
+            itemData = New MapItemStorage()
+            Dim vectorItemsLayer As New VectorItemsLayer() With {.Data = itemData}
+        
+            mapControl.Layers.AddRange(New LayerBase() {imageLayer, imageLayer1, routeInfoLayer, vectorItemsLayer})
             routeInfoLayer.ItemStyle.StrokeWidth = 2
             routeInfoLayer.ItemStyle.Stroke = Color.DeepSkyBlue
             AddHandler routeInfoLayer.Error, AddressOf RouteInfoLayer_Error
