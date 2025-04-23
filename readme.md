@@ -31,13 +31,6 @@ Output:
 - [WinForms Maps - Obtain Information about a Geographical Point Using the Microsoft Azure Maps Geocode Service](https://github.com/DevExpress-Examples/map-for-winforms-azure-geocoding)
 - [WinForms Maps - Create a Custom Search Panel Using the Microsoft Azure Maps Search Service](https://github.com/DevExpress-Examples/map-for-winforms-azure-search)
 
-## Does this example address your development requirements/objectives?
-
-[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=map-for-winforms-azure-routing&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=map-for-winforms-azure-routing&~~~was_helpful=no)
-
-(you will be redirected to DevExpress.com to submit your response)
-<!-- feedback end -->
-
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
