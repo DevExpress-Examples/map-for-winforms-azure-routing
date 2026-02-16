@@ -25,7 +25,7 @@ Output:
 
 ## Documentation
 
-* [Routing](https://docs.devexpress.com/WindowsForms/16713/controls-and-libraries/map-control/gis-data/routing?v=24.2)
+* [Routing](https://docs.devexpress.com/WindowsForms/16713/controls-and-libraries/map-control/gis-data/routing)
 
 ## More Examples 
 - [WinForms Maps - Obtain Information about a Geographical Point Using the Microsoft Azure Maps Geocode Service](https://github.com/DevExpress-Examples/map-for-winforms-azure-geocoding)
@@ -38,3 +38,4 @@ Output:
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
