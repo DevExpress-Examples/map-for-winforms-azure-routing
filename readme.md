@@ -32,7 +32,7 @@ Output:
 - [WinForms Maps - Create a Custom Search Panel Using the Microsoft Azure Maps Search Service](https://github.com/DevExpress-Examples/map-for-winforms-azure-search)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=map-for-winforms-azure-routing&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=map-for-winforms-azure-routing&~~~was_helpful=no)
 
